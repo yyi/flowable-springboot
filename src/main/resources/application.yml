@@ -10,9 +10,9 @@ spring:
 ###################  开发环境的profile  ###################
 ##########################################################
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/test
-    username: root
-    password: 123456
+    url: jdbc:mysql://localhost:3306/test
+    username: test
+    password: test
 
 logging:
   level.root: info
